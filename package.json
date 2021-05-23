@@ -1,0 +1,27 @@
+{
+  "name": "monokaix",
+  "displayName": "monokaix",
+  "description": "",
+  "version": "0.0.1",
+  "scripts": {
+    "activate": "node ./scripts/activate.js"
+  },
+  "engines": {
+    "vscode": "^1.56.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "MonokaiX",
+        "uiTheme": "vs-dark",
+        "path": "./themes/monokaix-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/node": "^14.17.0"
+  }
+}
