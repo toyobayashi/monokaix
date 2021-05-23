@@ -1,8 +1,8 @@
 {
-	"name": "MonokaiPlus",
-	"type": "dark",
-	"colors": {
-		"dropdown.background": "#414339",
+  "name": "MonokaiPlus",
+  "type": "dark",
+  "colors": {
+    "dropdown.background": "#414339",
     "list.activeSelectionBackground": "#75715E",
     "quickInputList.focusBackground": "#414339",
     "dropdown.listBackground": "#1e1f1c",
@@ -93,17 +93,17 @@
     "terminal.ansiBrightMagenta": "#AE81FF",
     "terminal.ansiBrightCyan": "#66D9EF",
     "terminal.ansiBrightWhite": "#f8f8f2",
-		// NEW
-		"editor.wordHighlightBackground": "#88eeee33",
+    // NEW
+    "editor.wordHighlightBackground": "#88eeee33",
     "editor.wordHighlightStrongBackground": "#d66b6b33",
     "editor.wordHighlightBorder": "#88eeee",
     "editor.wordHighlightStrongBorder": "#d66b6b",
     "editorOverviewRuler.findMatchForeground": "#A6E22E",
     "editor.findMatchBorder": "#66D9EF",
     "editor.selectionHighlightBorder": "#f8f8f2"
-	},
-	"tokenColors": [
-		{
+  },
+  "tokenColors": [
+    {
       "settings": {
         "foreground": "#F8F8F2"
       }
@@ -477,7 +477,7 @@
         "foreground": "#FD971F"
       }
     },
-		// NEW
+    // NEW
     {
       "name": "Class type",
       "scope": "entity.name.type.class",
@@ -565,6 +565,6 @@
         "foreground": "#F92672"
       }
     }
-	],
+  ],
   "semanticHighlighting": true
 }
