@@ -2,11 +2,13 @@
 
 Extending VSCode builtin `Monokai` color theme.
 
-## Install
+## Install & Update
 
 ```bash
 git clone https://github.com/toyobayashi/monokaix.git
 cd monokaix
+# or `git pull` for update
+
 npm run activate
 ```
 
