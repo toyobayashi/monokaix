@@ -540,7 +540,7 @@
     },
     {
       "name": "Macro",
-      "scope": ["entity.name.function.macro", "entity.name.function.preprocessor"],
+      "scope": ["entity.name.function.macro", "entity.name.function.preprocessor", "entity.name.other.preprocessor.macro.predefined.probably"],
       "settings": {
         "foreground": "#BEB7FF"
       }
