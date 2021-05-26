@@ -1,8 +1,9 @@
 {
   "name": "monokaix",
-  "displayName": "monokaix",
+  "displayName": "MonokaiX",
   "description": "",
   "version": "0.0.1",
+  "publisher": "toyobayashi",
   "scripts": {
     "activate": "node ./scripts/activate.js"
   },
