@@ -5,7 +5,8 @@
   "version": "0.0.1",
   "publisher": "toyobayashi",
   "scripts": {
-    "activate": "node ./scripts/activate.js"
+    "activate": "node ./scripts/activate.js",
+    "remove": "node ./scripts/remove.js"
   },
   "engines": {
     "vscode": "^1.56.0"

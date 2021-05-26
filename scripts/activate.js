@@ -4,7 +4,7 @@ const { mkdirSync, copyFileSync } = require('fs')
 const pkg = require('../package.json')
 
 const vscodeUserExtensionDir = join(homedir(), '.vscode/extensions')
-const themeDir = join(vscodeUserExtensionDir, `${pkg.publisher}.monokaix`)
+const themeDir = join(vscodeUserExtensionDir, `${pkg.publisher}.monokaix-${pkg.version}`)
 mkdirp(themeDir)
 copyFileSync(join(__dirname, '../package.json'), join(themeDir, 'package.json'))
 copyFileSync(join(__dirname, '../README.md'), join(themeDir, 'README.md'))

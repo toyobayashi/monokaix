@@ -13,3 +13,9 @@ npm run activate
 ```
 
 Relaunch VSCode and then `Ctrl K + Ctrl T` select `MonokaiX` color theme. 
+
+## Uninstall
+
+```bash
+npm run remove
+```
