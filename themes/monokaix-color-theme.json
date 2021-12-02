@@ -491,7 +491,21 @@
       "scope": ["entity.name.type.module", "entity.name.namespace", "entity.name.type.namespace"],
       "settings": {
         "fontStyle": "italic",
-        "foreground": "#A6E22E"
+        "foreground": "#FC89B9"
+      }
+    },
+    {
+      "name": "Pointer access",
+      "scope": ["punctuation.separator.pointer-access"],
+      "settings": {
+        "foreground": "#F92672"
+      }
+    },
+    {
+      "name": "Scope resolution",
+      "scope": ["punctuation.separator.scope-resolution"],
+      "settings": {
+        "foreground": "#F92672"
       }
     },
     {
